@@ -1,0 +1,956 @@
+@import url(base.css);
+header{
+    width: 100%;
+    height: 40px;
+    background: #444444;
+}
+main{
+    /*width: 976px;*/
+    height: 100%;
+    background: #444444;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+div{
+    font-size: 10px;
+    color: #a8a8aa;
+}
+/*导航开始*/
+nav{
+    width: 100%;
+    height: 44px;
+    background: #323232;
+}
+nav ul{
+    /*width: 978px;*/
+    height: 100%;
+    background: #323232;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul a{
+   font-size: 12px;
+    color: #ffffff;
+}
+nav ul a:hover{
+    color: #444444;
+}
+/*导航结束*/
+/*广告开始*/
+section, .section ul{
+    width: 100%;
+    height: auto;
+}
+section ul li{
+    display: block;
+    width: 100%;
+    /*height: 648px;*/
+    background: #fafafa;
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+
+section ul li .img1{
+    /*width: 1068px;*/
+    /*height: 337px;*/
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: url('../img/iphone_x_large.jpg') no-repeat center;*/
+    /*background-size: 1068px 337px;*/
+
+}
+.photo1 .title {
+    width: 100%;
+    /*height: 86px;*/
+    background: #fafafa;
+    /*margin-top: 82px;*/
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo1 .title .title1{
+    width: 100%;
+    /*height: 53px;*/
+    background: #fafafa;
+    /*font-size: 40px;*/
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+
+}
+.photo1 .title .title2{
+    width: 100%;
+    /*height: 40px;*/
+    background: #fafafa;
+    /*font-size: 22px;*/
+    color: #111111;
+    text-align: center;
+    /*padding-top: 8px;*/
+}
+section ul .wz{
+    /*width: 196px;*/
+    /*height: 26px;*/
+    background: #fafafa;
+    /*margin: 16px auto 0;*/
+    display: flex;
+    justify-content: space-between;
+}
+section ul .wz1{
+    /*width: 112px;*/
+    /*height: 26px;*/
+    background: #fafafa;
+    /*font-size: 17px;*/
+    color: #0070c9;
+    /*line-height: 26px;*/
+}
+section ul .wz2{
+    /*width: 54px;*/
+    /*height: 26px;*/
+    background: #fafafa;
+    /*font-size: 17px;*/
+    color: #0070c9;
+    /*line-height: 26px;*/
+}
+/*第一个结束*/
+/*第二个开始*/
+.photo2{
+    background: #f5f5f5;
+}
+section ul .photo2 .img1{
+    /*width: 930px;*/
+    /*height: 405px;*/
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /*background: url('../img/ipad_mediumtall.jpg') no-repeat center;*/
+    /*background-size: 930px 405px;*/
+
+}
+.photo2 .title {
+    width: 100%;
+    /*height: 92px;*/
+    background: #f5f5f5;
+    /*margin-top: 83px;*/
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo2 .title .title1{
+    width: 100%;
+    /*height: 53px;*/
+    background: #f5f5f5;
+    /*font-size: 40px;*/
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+
+}
+.photo2 .title .title2{
+    width: 100%;
+    /*height: 40px;*/
+    background: #f5f5f5;
+    /*font-size: 22px;*/
+    color: #111111;
+    text-align: center;
+    /*padding-top: 8px;*/
+}
+section ul .wz{
+    width: 196px;
+    height: 26px;
+    /*background: #f5f5f5;*/
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+section ul .wz1{
+    width: 112px;
+    height: 26px;
+    /*background:#f5f5f5;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+}
+section ul .wz2{
+    width: 54px;
+    height: 26px;
+    /*background: #fafafa;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+}
+section ul .photo2 .wz{
+    width: 196px;
+    height: 26px;
+    /*background: #f5f5f5;*/
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: space-between;
+    background: #f5f5f5;
+}
+section ul .photo2 .wz1{
+    width: 112px;
+    height: 26px;
+    /*background:#f5f5f5;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+    background: #f5f5f5;
+}
+section ul .photo2 .wz2{
+    width: 54px;
+    height: 26px;
+    /*background: #fafafa;*/
+    font-size: 17px;
+    color: #0070c9;
+    line-height: 26px;
+    background: #f5f5f5;
+}
+/*第二个结束*/
+/*第三个结束*/
+/*六格框开始  */
+.list1{
+    width: 100%;
+    height: auto;
+
+}
+.list1 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list1 ul li{
+    /*width: 50%;*/
+    /*height: 592px;*/
+    background: #ff4045;
+    /*border-left: 12px solid#2196f3;*/
+    /*border-right: 6px solid#2196f3;*/
+    border-bottom: 12px solid#ffffff;
+    box-sizing: border-box;
+    position: relative;
+
+}
+/*.list1 ul li:nth-child(2n){*/
+    /*border-left: 6px solid#2196f3;*/
+    /*border-right: 12px solid#2196f3;*/
+    /*box-sizing: border-box;*/
+
+/*}*/
+.list1 ul li h4{
+    /*line-height: 48px;*/
+    /*font-size: 34px;*/
+    color: #ffffff;
+    text-align: center;
+    /*position: absolute;*/
+    /*bottom: 94px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+/*.adv_wz{*/
+    /*width: 195px;*/
+    /*height: 34px;*/
+    /*background: #0ff31a;*/
+    /*position: absolute;*/
+    /*bottom: 71px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+/*}*/
+/*.adv_wz1{*/
+    /*width: 85px;*/
+    /*height: 100%;*/
+    /*background: #2196f3;*/
+    /*font-size: 14px;*/
+    /*color: #ffffff;*/
+    /*line-height: 34px;*/
+/*}*/
+/*.adv_wz2{*/
+    /*width: 82px;*/
+    /*height: 100%;*/
+    /*background: #2196f3;*/
+    /*font-size: 14px;*/
+    /*color: #ffffff;*/
+    /*line-height:34px;*/
+/*}*/
+/*六格框结束  */
+/*广告结束*/
+/*<!--下部第一部分开始-->*/
+.list2 {
+    width: 100%;
+    height: 361px;
+    background: #f2f2f2;
+
+}
+.list2 ul{
+    /*width: 980px;*/
+    height: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list2 ul li{
+    width: 20%;
+    height: 361px;
+    background: #f2f2f2;
+    /*padding-top: 42px;*/
+    /*font-size: 10px;*/
+}
+.list2 ul li span{
+    display: block;
+    width: 100%;
+    /*height: 27px;*/
+
+}
+
+/*<!--下部第一部分结束-->*/
+/*<!--下部第二部分开始-->*/
+.list3{
+    width: 100%;
+    height: 36px;
+    background: #f2f2f2;
+}
+.box_father{
+    /*width: 976px;*/
+    /*height: 100%;*/
+    background: #f2f2f2;
+    margin: 0 auto;
+}
+.box_sun{
+    display: block;
+    width: 967px;
+    height: 35px;
+    background: #f2f2f2;
+    border-bottom: 1px solid#d5d5d5;
+    /*line-height: 35px;*/
+    /*font-size: 10px;*/
+}
+/*<!--下部第二部分结束-->*/
+/*<!--下部第3部分开始-->*/
+.list4{
+    width: 100%;
+    height: 69px;
+    background: #f2f2f2;
+}
+.list4_box{
+    /*width: 976px;*/
+    height: 69px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.list4_box_sun1{
+    /*width: 976px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.list4_box_wz1{
+    width: 240px;
+    height: 25px;
+    background: #f2f2f2;
+    line-height: 25px;
+    font-size: 10px;
+    color: #9f9f9f;
+    margin-top: 4px;
+}
+.list4_box_wz2{
+     width: 304px;
+    height: 25px;
+    background:#f2f2f2;
+    position: absolute;
+    left: 272px;
+    z-index: 999;
+    margin-top: 2px;
+    line-height: 25px;
+    color: #595552;
+    font-size: 11px;
+}
+.list4_box_wz2 span{
+    font-size: 16px;
+    color:#d7d7d7;
+}
+.list4_box_logo1{
+    width: 45px;
+    height: 25px;
+    background: #f2f2f2;
+    line-height: 25px;
+    color: black;
+    margin-top: 4px;
+}
+.icon-zhongguo{
+    color: red;
+}
+.list4_box_sun2{
+    /*width: 976px;*/
+    height: 25px;
+    background: #f2f2f2;
+    line-height: 25px;
+    font-size: 10px;
+    color: #9f9f9f;
+    position: relative;
+}
+
+/*<!--下部第3部分结束-->*/
+/*<!--最小界面图开始-->*/
+.list5{
+    width: 100%;
+    height: 443px;
+    background: #f2f2f2;
+}
+.list5_box{
+    width: 100%;
+    height: 288px;
+    background: #f2f2f2;
+    padding-right: 12px;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 7px;
+}
+.list5_box .l{
+    width: 100%px;
+    height: 37px;
+    background:#f2f2f2;
+    line-height: 37px;
+    font-size: 10px;
+    color: #2b2620;
+    border-bottom: 1px solid#d6d6d6;
+    position: relative;
+}
+.list5_box .l .x{
+    width: 23px;
+    height: 35px;
+    background: #f2f2f2;
+    position: absolute;
+    right: 2px;
+    color: #2b2b2b;
+    line-height: 37px;
+    font-size: 8px;
+}
+.list5_in{
+    width: 100%;
+    height: 31px;
+    background: #f2f2f2;
+    padding-left: 12px;
+}
+.list5_in a{
+    line-height: 31px;
+    font-size: 10px;
+    color: #4c86c6;
+
+}
+.list5_in_xia{
+    padding-left: 12px;
+    width: 100%;
+    height: 31px;
+    background: #f2f2f2;
+    line-height: 31px;
+    font-size: 10px;
+    color: black;
+}
+.kongbao{
+    width: 100%;
+    height: 9px;
+    background:#f2f2f2;
+}
+.xia{
+    width: 100%;
+    height: 18px;
+    background: #f2f2f2;
+    padding-left: 12px;
+    line-height: 18px;
+    font-size: 10px;
+    color: #898989;
+}
+.xia_xia{
+    width: 100%;
+    height: 24px;
+    background: #f2f2f2;
+    line-height: 24px;
+    font-size: 10px;
+    color: #595552;
+    padding-left: 12px;
+}
+.xia_xia span{
+    font-size: 16px;
+    color:#d7d7d7;
+}
+.xia_xia_xia{
+    width: 100%;
+    height: 24px;
+    background: #f2f2f2;
+    color: #898989;
+    line-height: 24px;
+    padding-left: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*<!--最小界面图结束-->*/
+/*响应式*/
+/*>1024px*/
+@media screen and (min-width: 1024px){
+    main{
+        width: 976px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    nav ul{
+        width: 976px;
+    }
+    section ul li{
+        height: 648px;
+
+    }
+    .photo1 .title {
+        height: 80px;
+        margin-top: 82px;
+    }
+    .photo1 .title .title1{
+        height: 53px;
+        font-size: 40px;
+
+    }
+    .photo1 .title .title2{
+        height: 34px;
+        font-size: 22px;
+    }
+    section ul .wz{
+        width: 196px;
+        height: 26px;
+        margin: 16px auto 0;
+    }
+    section ul .wz1{
+        width: 112px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    section ul .wz2{
+        width: 54px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    section ul li .img1{
+        width: 1068px;
+        height: 337px;
+        background: url('../img/iphone_x_large.jpg') no-repeat center;
+        background-size: 1068px 337px;
+
+    }
+    section ul .photo2 .img1{
+        width: 930px;
+        height: 405px;
+        background: url('../img/ipad_largetall.jpg') no-repeat center;
+        background-size: 930px 405px;
+
+    }
+    .photo2 .title {
+        height: 86px;
+        margin-top: 83px;
+    }
+    .photo2 .title .title1{
+        height: 53px;
+        font-size: 40px;
+
+    }
+    .photo2 .title .title2{
+        height: 34px;
+        font-size: 22px;
+    }
+    section ul .photo2 .wz{
+        width: 196px;
+        height: 26px;
+        margin: 16px auto 0;
+    }
+    section ul .photo2 .wz1{
+        width: 112px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    section ul .photo2 .wz2{
+        width: 54px;
+        height: 26px;
+        font-size: 17px;
+        line-height: 26px;
+    }
+    .list1 ul li{
+        width: 50%;
+        height: 592px;
+        border-left: 12px solid#ffffff;
+        border-right: 6px solid#ffffff;
+    }
+    .list1 ul li:nth-child(2n){
+        border-left: 6px solid#ffffff;
+        border-right: 12px solid#ffffff;
+        box-sizing: border-box;
+    }
+    .list1 ul .adv{
+        background: url('../img/黑白大2.jpg') no-repeat center;
+        background-size: 1262px 580px;
+
+    }
+    .list1 ul li h4{
+        line-height: 48px;
+        font-size: 34px;
+        position: absolute;
+        bottom: 112px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list2 ul{
+        width: 980px;
+    }
+    .list2 ul li{
+        padding-top: 42px;
+        font-size: 10px;
+    }
+    .list2 ul li span{
+        height: 27px;
+    }
+    .box_father{
+        width: 976px;
+        height: 35px;
+    }
+    .box_sun{
+        height: 35px;
+        line-height: 35px;
+        font-size: 10px;
+    }
+
+    .list4_box{
+        width: 976px;
+    }
+    .list4_box_sun1{
+        width: 976px;
+    }
+    .list4_box_sun2{
+        width: 976px;
+    }
+    .list5{
+        display: none;
+    }
+}
+/*<1024px*/
+@media screen and (max-width: 1024px){
+    main{
+        padding-right: 22px;
+    }
+    .max{
+        display: block;
+    }
+    .min{
+        display: none;
+    }
+    nav ul{
+        padding: 0 22px;
+    }
+    section ul li{
+        height: 648px;
+
+    }
+    .photo1 .title {
+        height: 82px;
+        margin-top: 94px;
+    }
+    .photo1 .title .title1{
+        height: 49px;
+        font-size: 31px;
+
+    }
+    .photo1 .title .title2{
+        height: 28px;
+        font-size: 19px;
+    }
+    section ul .wz{
+        width: 172px;
+        height: 18px;
+        margin: 14px auto 0;
+    }
+    section ul .wz1{
+        width: 97px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section ul .wz2{
+        width: 50px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section ul li .img1{
+        width: 736px;
+        height: 336px;
+        background: url('../img/iphone_x_medium.jpg') no-repeat center;
+        background-size: 736px 336px;
+
+    }
+    section ul .photo2 .img1{
+        width: 650px;
+        height: 370px;
+        background: url('../img/ipad2.jpg') no-repeat center;
+        background-size: 650px 370px;
+
+    }
+    .photo2 .title {
+        height: 84px;
+        margin-top: 110px;
+    }
+    .photo2 .title .title1{
+        height: 46px;
+        font-size: 32px;
+
+    }
+    .photo2 .title .title2{
+        height: 32px;
+        font-size: 20px;
+    }
+    section ul .photo2 .wz{
+        width: 172px;
+        height: 18px;
+        margin: 14px auto 0;
+    }
+    section ul .photo2 .wz1{
+        width: 97px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    section ul .photo2 .wz2{
+        width: 50px;
+        height: 18px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .list1 ul li{
+        width: 50%;
+        height: 502px;
+        border-left: 12px solid#ffffff;
+        border-right: 6px solid#ffffff;
+    }
+    .list1 ul li:nth-child(2n){
+        border-left: 6px solid#ffffff;
+        border-right: 12px solid#ffffff;
+        box-sizing: border-box;
+    }
+    .list1 ul .adv{
+        background: url('../img/黑白中.jpg') no-repeat center;
+        background-size: 516px 490px;
+
+    }
+    .list1 ul li h4{
+        line-height: 44px;
+        font-size: 28px;
+        position: absolute;
+        bottom: 120px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list2 ul{
+        /*width: 980px;*/
+        padding-left: 42px;
+        padding-right: 46px;
+    }
+    .list2 ul li{
+        padding-top: 36px;
+
+        font-size: 10px;
+    }
+    .list2 ul li span{
+        height: 27px;
+    }
+    .box_father{
+        height: 32px;
+       padding-right: 24px;
+       padding-left: 42px;
+    }
+    .box_sun{
+        height: 32px;
+        line-height: 32px;
+        font-size: 10px;
+    }
+    .list4_box{
+        /*width: 976px;*/
+    }
+    .list4_box_sun1{
+
+     padding-left: 42px;
+        padding-right: 24px;
+    }
+    .list4_box_sun2{
+        padding-left: 42px;
+        padding-right: 24px;
+    }
+    .list5{
+        display: none;
+    }
+
+}
+/*<768px*/
+@media screen and (max-width: 768px){
+    .max{
+        display: none;
+    }
+    .min{
+        display: block;
+    }
+    section ul li{
+        height: 500px;
+
+    }
+    .photo1 .title {
+        height: 68px;
+        margin-top: 27px;
+    }
+    .photo1 .title .title1{
+        height: 40px;
+        font-size: 26px;
+
+    }
+    .photo1 .title .title2{
+        height: 27px;
+        font-size: 14px;
+    }
+    section ul .wz{
+        width: 164px;
+        height: 18px;
+        margin: 10px auto 0;
+    }
+    section ul .wz1{
+        width: 92px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section ul .wz2{
+        width: 46px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section ul li .img1{
+        width: 320px;
+        height: 353px;
+        background: url('../img/iphone_x_small.jpg') no-repeat center;
+        background-size: 320px 353px;
+
+    }
+    section ul .photo2 .img1{
+        width: 228px;
+        height: 340px;
+        background: url('../img/ipad_small.jpg') no-repeat center;
+        background-size: 228px 340px;
+
+    }
+    .photo2 .title {
+        height: 68px;
+        margin-top: 35px;
+    }
+    .photo2 .title .title1{
+        height: 38px;
+        font-size: 25px;
+
+    }
+    .photo2 .title .title2{
+        height: 23px;
+        font-size: 16px;
+    }
+    section ul .photo2 .wz{
+        width: 164px;
+        height: 18px;
+        margin: 10px auto 0;
+    }
+    section ul .photo2 .wz1{
+        width: 92px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section ul .photo2 .wz2{
+        width: 46px;
+        height: 18px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .list1 ul li{
+        width: 100%;
+        height: 512px;
+        border-left: none;
+        border-right: none;
+    }
+    .list1 ul li:nth-child(2n){
+        border-left: none;
+        border-right: none;
+        /*box-sizing: border-box;*/
+    }
+    .list1 ul .adv{
+        background: url('../img/黑白小.jpg') no-repeat center;
+        background-size: 736px 548px;
+
+    }
+    .list1 ul li h4{
+        line-height: 40px;
+        font-size: 28px;
+        position: absolute;
+        bottom: 114px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list2{
+        display: none;
+    }
+    .list3{
+        display: none;
+    }
+    .list4{
+        display: none;
+    }
+    .list5{
+        display: block;
+    }
+}
